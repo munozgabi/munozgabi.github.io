@@ -21,15 +21,44 @@
     float: left;
 }
 
+.produto1{
+    background-color: #ccc;
+    width: 50%;
+    height: 1000px;
+    float: left;
+}
+
+.produto2{
+    background-color: #ccc;
+    width: 50%;
+    height: 1000px;
+    float: left;
+}
+
+.carrinho{
+    background-color: #ccc;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.contato{
+    background-color: #ccc;
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+
 .footer{
     background-color: #999;
     width: 100%;
-    height: 50px;
+    height: auto;
     float: left;
 }
 
 @media screen and (max-width:600px) {
-    .header, .navbar, .content, .footer{
+    .header, .navbar, .content, .produto1, .produto2, .footer{
         width: 100%;
     }
     
